@@ -46,8 +46,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HSVPicker\Enums\ColorValues.cs" />
+     <Compile Include="Assets\HSVPicker\Events\ColorChangedEvent.cs" />
+     <Compile Include="Assets\HSVPicker\Events\HSVChangedEvent.cs" />
+     <Compile Include="Assets\HSVPicker\Other\ColorPickerTester.cs" />
+     <Compile Include="Assets\HSVPicker\Other\TiltWindow.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorImage.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorLabel.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorPicker.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorPresets.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorSlider.cs" />
+     <Compile Include="Assets\HSVPicker\UI\ColorSliderImage.cs" />
+     <Compile Include="Assets\HSVPicker\UI\HexColorField.cs" />
+     <Compile Include="Assets\HSVPicker\UI\SVBoxSlider.cs" />
+     <Compile Include="Assets\HSVPicker\UtilityScripts\BoxSlider.cs" />
+     <Compile Include="Assets\HSVPicker\UtilityScripts\HSVUtil.cs" />
      <Compile Include="Assets\IgaguriController.cs" />
      <Compile Include="Assets\IgaguriGenerator.cs" />
+     <Compile Include="Assets\ParticlePainter.cs" />
+     <Compile Include="Assets\UnityARAmbient.cs" />
+     <None Include="Assets\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -69,6 +87,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{550A1F1F-4DDC-1275-680E-776D613B0116}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
