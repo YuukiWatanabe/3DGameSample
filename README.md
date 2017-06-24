@@ -1,11 +1,11 @@
-#概要
+# 概要
 
 Unity(C#)で作った3Dのサンプルアプリ。
 
-#動作確認
+# 動作確認
 
 iPhoneでビルドしてアプリを見る場合は、
-3DGameSample/Igaguri_iOS/Unity-iPhone.xcodeproj
+Igaguri_iOS フォルダ下の Unity-iPhone.xcodeproj
 をXcodeで開いて実機でデバックするとみれます。
 
 
