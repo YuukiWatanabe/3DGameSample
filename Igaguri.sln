@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{D787AC3E-14AB-2B9D-FF12-45B696A52C76}") = "Igaguri", "Assembly-CSharp.csproj", "{753B3C48-8BC4-9D76-D603-C6C44C42E119}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igaguri", "Assembly-CSharp.csproj", "{753B3C48-8BC4-9D76-D603-C6C44C42E119}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
